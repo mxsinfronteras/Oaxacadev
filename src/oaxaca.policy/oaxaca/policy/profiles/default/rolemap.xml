@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rolemap>
+  <roles>
+    <role name="AgendaRole" />
+    <role name="FichaRole" />
+    <role name="NotaRole" />
+    <role name="ActaRole" />
+    <role name="ComunicadoRole" />
+    <role name="ReporteRole" />
+  </roles>
+  <permissions>
+    <permission name="Oaxaca: Add Ficha" acquire="False">
+        <role name="Manager" />
+        <role name="Site Administrator" />
+        <role name="Owner" />
+        <role name="Editor" />
+        <role name="FichaRole" />
+    </permission>
+    <permission name="Oaxaca: Add Nota" acquire="False">
+        <role name="Manager" />
+        <role name="Site Administrator" />
+        <role name="Owner" />
+        <role name="Editor" />
+        <role name="NotaRole" />
+    </permission>
+    <permission name="Oaxaca: Add Acta" acquire="False">
+        <role name="Manager" />
+        <role name="Site Administrator" />
+        <role name="Owner" />
+        <role name="Editor" />
+        <role name="ActaRole" />
+    </permission>
+    <permission name="Oaxaca: Add Reporte" acquire="False">
+        <role name="Manager" />
+        <role name="Site Administrator" />
+        <role name="Owner" />
+        <role name="Editor" />
+        <role name="ReporteRole" />
+    </permission>
+  </permissions>
+</rolemap>
