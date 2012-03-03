@@ -1,6 +1,7 @@
 *.egg-info
 *.mo
 *.pyc
+*.pyo
 *~
 .installed.cfg
 .mr.developer.cfg
@@ -9,7 +10,6 @@ develop-eggs/
 downloads/
 eggs/
 parts/
-var/
 include/
 lib/
 build/
