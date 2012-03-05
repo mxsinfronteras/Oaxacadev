@@ -25261,3 +25261,17 @@ AttributeError: has_key
 2012-03-02T12:30:00 INFO SignalHandler Caught signal SIGINT
 ------
 2012-03-02T12:30:00 INFO Z2 Shutting down
+------
+2012-03-03T21:32:32 INFO ZServer HTTP server started at Sat Mar  3 21:32:32 2012
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2012-03-03T21:32:42 INFO DocFinderTab Applied patch version 1.0.4.
+------
+2012-03-03T21:32:47 WARNING ZODB.blob (12538) Blob dir /home/raul/Oaxacadev/var/blobstorage/ has insecure mode setting
+------
+2012-03-03T21:33:31 WARNING Init Class z3c.blobfile.file.File has a security declaration for nonexistent method 'contentType'
+------
+2012-03-03T21:33:31 WARNING Init Class z3c.blobfile.image.Image has a security declaration for nonexistent method 'contentType'
+------
+2012-03-03T21:33:36 INFO Zope Ready to handle requests
