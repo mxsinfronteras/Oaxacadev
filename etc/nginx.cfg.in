@@ -5,7 +5,7 @@ upstream plone {
 server {
     listen 80;
     server_name sedesoh.info www.sedesoh.info;
-    access_log ${buildout:directory}/var/log/nginx/acess.log;
+    access_log ${buildout:directory}/var/log/nginx/access.log;
     error_log ${buildout:directory}/var/log/nginx/error.log;
 
     #GZip
@@ -27,7 +27,7 @@ server {
     #Root
     root ${buildout:directory}/var/www;
     location / {
-        rewrite ^/(.*)$ /VirtualHostBase/http/sedesoh.info:80/sedesoh/VirtualHostRoot/$1 break;
+        rewrite ^/(.*)$ /VirtualHostBase/http/sedesoh.info:80/Plone/VirtualHostRoot/$1 break;
         proxy_pass http://plone;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;

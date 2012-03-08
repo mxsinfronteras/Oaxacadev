@@ -25275,3 +25275,35 @@ AttributeError: has_key
 2012-03-03T21:33:31 WARNING Init Class z3c.blobfile.image.Image has a security declaration for nonexistent method 'contentType'
 ------
 2012-03-03T21:33:36 INFO Zope Ready to handle requests
+------
+2012-03-06T23:33:07 INFO ZServer HTTP server started at Tue Mar  6 23:33:07 2012
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2012-03-06T23:33:17 INFO DocFinderTab Applied patch version 1.0.4.
+------
+2012-03-06T23:33:25 WARNING ZODB.blob (6451) Blob dir /home/raul/Oaxacadev/var/blobstorage/ has insecure mode setting
+------
+2012-03-06T23:34:16 WARNING Init Class z3c.blobfile.file.File has a security declaration for nonexistent method 'contentType'
+------
+2012-03-06T23:34:16 WARNING Init Class z3c.blobfile.image.Image has a security declaration for nonexistent method 'contentType'
+------
+2012-03-06T23:34:22 INFO Zope Ready to handle requests
+------
+2012-03-06T23:41:55 INFO GenericSetup.componentregistry Adapters exported.
+------
+2012-03-06T23:41:55 INFO GenericSetup.componentregistry Subscribers exported.
+------
+2012-03-06T23:41:55 INFO GenericSetup.componentregistry Utilities exported.
+------
+2012-03-06T23:43:36 INFO GenericSetup.componentregistry Adapters exported.
+------
+2012-03-06T23:43:36 INFO GenericSetup.componentregistry Subscribers exported.
+------
+2012-03-06T23:43:36 INFO GenericSetup.componentregistry Utilities exported.
+------
+2012-03-06T23:55:55 INFO SignalHandler Caught signal SIGTERM
+------
+2012-03-06T23:55:55 INFO Z2 Shutting down fast
+------
+2012-03-06T23:55:55 INFO ZServer closing HTTP to new connections
