@@ -10,6 +10,3 @@ develop-eggs/
 downloads/
 eggs/
 parts/
-include/
-lib/
-build/
