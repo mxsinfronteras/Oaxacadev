@@ -25321,3 +25321,9 @@ AttributeError: has_key
 2012-03-09T12:34:09 WARNING Init Class z3c.blobfile.image.Image has a security declaration for nonexistent method 'contentType'
 ------
 2012-03-09T12:34:14 INFO Zope Ready to handle requests
+------
+2012-03-11T03:27:26 INFO SignalHandler Caught signal SIGTERM
+------
+2012-03-11T03:27:26 INFO Z2 Shutting down fast
+------
+2012-03-11T03:27:26 INFO ZServer closing HTTP to new connections
