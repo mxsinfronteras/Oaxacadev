@@ -25327,3 +25327,43 @@ AttributeError: has_key
 2012-03-11T03:27:26 INFO Z2 Shutting down fast
 ------
 2012-03-11T03:27:26 INFO ZServer closing HTTP to new connections
+------
+2012-03-11T12:11:21 INFO ZServer HTTP server started at Sun Mar 11 12:11:21 2012
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2012-03-11T12:11:30 INFO DocFinderTab Applied patch version 1.0.4.
+------
+2012-03-11T12:11:36 WARNING ZODB.blob (6742) Blob dir /home/raul/Oaxacadev/var/blobstorage/ has insecure mode setting
+------
+2012-03-11T12:12:16 WARNING Init Class z3c.blobfile.file.File has a security declaration for nonexistent method 'contentType'
+------
+2012-03-11T12:12:16 WARNING Init Class z3c.blobfile.image.Image has a security declaration for nonexistent method 'contentType'
+------
+2012-03-11T12:12:20 INFO Zope Ready to handle requests
+------
+2012-03-11T15:33:58 INFO SignalHandler Caught signal SIGTERM
+------
+2012-03-11T15:33:58 INFO Z2 Shutting down fast
+------
+2012-03-11T15:33:58 INFO ZServer closing HTTP to new connections
+------
+2012-03-11T16:12:48 INFO ZServer HTTP server started at Sun Mar 11 16:12:48 2012
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2012-03-11T16:12:52 INFO DocFinderTab Applied patch version 1.0.4.
+------
+2012-03-11T16:12:54 WARNING ZODB.blob (17166) Blob dir /home/raul/Oaxacadev/var/blobstorage/ has insecure mode setting
+------
+2012-03-11T16:13:20 WARNING Init Class z3c.blobfile.file.File has a security declaration for nonexistent method 'contentType'
+------
+2012-03-11T16:13:20 WARNING Init Class z3c.blobfile.image.Image has a security declaration for nonexistent method 'contentType'
+------
+2012-03-11T16:13:24 INFO Zope Ready to handle requests
+------
+2012-03-11T16:26:37 INFO SignalHandler Caught signal SIGTERM
+------
+2012-03-11T16:26:37 INFO Z2 Shutting down fast
+------
+2012-03-11T16:26:37 INFO ZServer closing HTTP to new connections
